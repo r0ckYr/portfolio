@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav a {
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #5e81ac; /* Slightly lighter shade */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes waving {
+  0% { transform: translateY(0)  }
+  25% { transform: translateY(-5px) }
+  50% { transform: translateY(0) }
+  75% { transform: translateY(5px) }
+  100% { transform: translateY(0) }
+}
+
+.animate-waving {
+  animation: waving 2s ease-in-out infinite;
+}
+
+.hover\:scale-105:focus, 
+.hover\:scale-105:focus-visible {
+  scale: 105%; /* or any other scale value you prefer */
+}
+
+.trail {
+  position: absolute;
+  width: 10px; /* Size of the trail */
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.8); /* Color of the trail */
+  pointer-events: none; /* Prevents interference with mouse events */
+  transition: transform 0.2s, opacity 0.3s;
+  opacity: 1;
+}
+
+.trail:hover {
+  opacity: 0; /* Fade out effect */
+}
+
