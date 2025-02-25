@@ -56,7 +56,7 @@ const Navigation = ({ isOpen, toggleMenu }) => (
           <Linkedin size={20} />
         </a>
         <a
-          href="https://twitter.com/r0ckYrp"
+          href="https://twitter.com/r0ckYr"
           className="bg-white p-2 rounded-full text-black hover:bg-gray-200 transition-colors"
         >
           <Twitter size={20} />

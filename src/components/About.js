@@ -15,10 +15,10 @@ const About = () => (
           </p>
           <p>
             I have three years of experience as a bug bounty hunter,
-            specializing in web and mobile security.With a focus on web and
-            mobile application security. I’ve worked with organizations such as
-            Coinbase, AT&T, Rockstar Games, PayPal, Amazon, Goldman Sachs, and
-            Epic Games to identify and address vulnerabilities.
+            specializing in web and mobile security. I’ve worked with
+            organizations such as Coinbase, AT&T, Rockstar Games, PayPal,
+            Amazon, Goldman Sachs, and Epic Games to identify and address
+            vulnerabilities.
           </p>
         </div>
       </div>

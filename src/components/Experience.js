@@ -14,7 +14,7 @@ const Experience = () => (
           </h3>
           <p className="text-lg text-zinc-300 mb-4">
             <a
-              href="https://nixaracde.fun"
+              href="https://nixarcade.fun"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-zinc-400 transition-colors underline decoration-dotted"

@@ -45,7 +45,7 @@ const Projects = () => {
       title: "Ludo Game",
       description: "Modern multiplayer board game with real-time gameplay.",
       github: "https://github.com/r0ckYr/Ludo",
-      live: "https://ludo.rockyrp.com",
+      live: "https://ludofam.nixarcade.fun",
       category: "Entertainment",
     },
   ];

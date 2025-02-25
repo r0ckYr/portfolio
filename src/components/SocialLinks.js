@@ -15,7 +15,7 @@ const SocialLinks = () => (
       <Linkedin size={20} />
     </a>
     <a
-      href="https://twitter.com/r0ckYrp"
+      href="https://twitter.com/r0ckYr"
       className="text-white hover:text-gray-300"
     >
       <Twitter size={20} />
